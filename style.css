@@ -1,0 +1,128 @@
+
+body {
+  background-image: url(./imagens/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div.fundo{ 
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#imageLogo{
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+}
+header.menu{
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  
+}
+
+.menuNavegacao{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Verdana;
+}
+
+#titulo{
+  padding-top: 64px;
+  color: white;
+  font-size: 50px;
+  font-family: News701 BT;
+  display: flex;
+  justify-content: center;
+}
+
+.paragrafo{
+  font-size: 30px;
+  font-family: Arial;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.download64{
+  padding: 12px;
+  display: flex;
+  margin-left: 60px;
+}
+
+label{
+  display: flex;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: white;
+}
+
+#contatenos{
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  border-style: groove;
+  border-color: #4A453F;
+  border-radius: 5px 5px 5px 5px;
+  background: #33302E;
+}
+
+#hfooter{
+  color: white;
+  font-size: 24px;
+  font-family: News701 BT;
+  display: flex;
+  justify-content: end;
+  margin-right: 80px;
+}
+
+.pfooter1{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  margin-left: 1%;
+}
+
+.pfooter2{
+  margin-top: 70px;
+  text-align: start;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  margin-left: 1%;
+}
+
+.onefooter{
+  width: 70%;
+  height: 200px;
+}
+
+.twofooter{
+  width: 50%;
+  height: 200px%;
+}
+
+.footer{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.copyright{
+  margin-bottom: 3px;
+}
+
+.redes{
+  display: inline;
+  margin-left: 10px;
+}
